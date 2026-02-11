@@ -133,10 +133,3 @@ dmypy.json
 .DS_Store
 Thumbs.db
 Desktop.ini
-
-# Project specific
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
