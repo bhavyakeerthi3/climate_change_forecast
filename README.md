@@ -35,12 +35,25 @@ A machine learning-based climate change forecasting system that uses historical 
    pip install -r requirements.txt
    ```
 
+## 📁 Project Structure
+
+```text
+climate_change_forecast/
+├── data/               # CSV datasets
+├── src/                # Python source code
+│   └── forecast_code.py
+├── images/             # Visual assets
+├── README.md
+├── LICENSE
+└── requirements.txt
+```
+
 ## 📖 Usage
 
 Run the forecasting model:
 
 ```bash
-python forecast_code.py
+python src/forecast_code.py
 ```
 
 The script will:
@@ -56,12 +69,12 @@ The project uses the following datasets:
 
 | Dataset | Description | Source |
 |---------|-------------|--------|
-| `co2_mm_mlo.csv` | Monthly mean CO₂ concentrations from Mauna Loa Observatory | [NOAA GML](https://gml.noaa.gov/ccgg/trends/) |
-| `temperature.csv` | Global temperature anomalies by season | [NASA GISS](https://data.giss.nasa.gov/gistemp/) |
-| `global.csv` | Global climate indicators | Climate research databases |
-| `flux_sunspot.csv` | Solar sunspot numbers and F10.7 flux data | [NOAA SWPC](https://www.swpc.noaa.gov/) |
-| `forest_size.csv` | Global forest coverage in million hectares | [FAO](http://www.fao.org/forest-resources-assessment/) |
-| `ocean_temp_data.csv` | Ocean heat content anomaly data | Placeholder data (1958-2023) |
+| `data/co2_mm_mlo.csv` | Monthly mean CO₂ concentrations | [NOAA GML](https://gml.noaa.gov/ccgg/trends/) |
+| `data/temperature.csv` | Global temperature anomalies | [NASA GISS](https://data.giss.nasa.gov/gistemp/) |
+| `data/global.csv` | Global climate indicators | Research databases |
+| `data/flux_sunspot.csv` | Solar sunspot and F10.7 data | [NOAA SWPC](https://www.swpc.noaa.gov/) |
+| `data/forest_size.csv` | Global forest coverage | [FAO](http://www.fao.org/forest-resources-assessment/) |
+| `data/ocean_temp_data.csv` | Ocean heat content anomaly | Research data (1958-2023) |
 
 ## 🤖 Model Architecture
 
